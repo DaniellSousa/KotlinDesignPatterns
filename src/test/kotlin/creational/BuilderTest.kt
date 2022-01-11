@@ -11,7 +11,7 @@ class ComponentTest {
             .setParam1("a string")
             .setParam3(true)
             .build()
-        
+
         println(component)
         println(component.param1)
         println(component.param2)
