@@ -4,8 +4,8 @@ package structural
 * Design Pattern Decorator: É a ideia de adicionar um novo comportamento ao objeto, seja por meio de uma sobrescrita ou adicionando
 *                       novos métodos além dos sobrescritos das interfaces ou classes superiores.
 *
-* Design Pattern Decorator:
-*
+* Design Pattern Decorator: It's the idea of ​​adding new behavior to the object, either by overwriting it or by adding
+*                       new methods in addition to overriding interfaces or higher classes.
 * */
 
 interface CoffeeMachine {
