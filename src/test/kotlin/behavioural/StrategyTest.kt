@@ -13,7 +13,7 @@ class StrategyTest {
 
         val uppercasePrinter = Printer(uppercaseFormatter)
         uppercasePrinter.printString(inputString)
-        
+
         Assertions.assertEquals("daniel monteiro", lowerCasePrinter.getStringFormatted())
         Assertions.assertEquals("DANIEL MONTEIRO", uppercasePrinter.getStringFormatted())
     }
