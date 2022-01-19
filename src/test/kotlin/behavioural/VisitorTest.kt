@@ -12,7 +12,7 @@ class VisitorTest {
         val projectKappa = TimeAndMaterialsContract(50, 50)
 
         val project = arrayListOf(projectAlpha, projectBeta, projectGamma, projectKappa)
-        
+
         val monthlyCostVisitor = MonthlyCostReportVisitor()
         val monthlyCost = project.map { it.accept(monthlyCostVisitor) }.sum()
         println("Monthly cost: $monthlyCost")
